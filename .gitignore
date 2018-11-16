@@ -1,3 +1,4 @@
 *~
-nosdeputes.fr_deputes_en_mandat_2018-11-14.csv
-SyceronBrut.xml
+env/
+__pycache__/
+data/
