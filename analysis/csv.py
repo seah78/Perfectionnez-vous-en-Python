@@ -15,8 +15,8 @@ def launch_analysis(data_file):
 	except FileNotFoundError as e:
 		lg.critical('Ow : The file was not found. Here is the message : {}'.format(e))
 
-# def main():
-# 	launch_analysis('nosdeputes.csv')	
+def main():
+	launch_analysis('nosdeputes.csv')	
 
-# if __name__ == "__main__":
-# 	main()
+if __name__ == "__main__":
+	main()
