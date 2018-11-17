@@ -2,6 +2,7 @@
 # coding: utf-8
 
 import argparse
+# import pdb; pdb.set_trace()
 
 import analysis.csv as c_an
 import analysis.xml as x_an
@@ -13,6 +14,7 @@ def parse_argument():
 
 def main():
 	args = parse_argument()
+	
 	if args.extension == 'csv':
 		c_an.launch_analysis('nosdeputes.csv')
 	elif args.extension == 'xml':
